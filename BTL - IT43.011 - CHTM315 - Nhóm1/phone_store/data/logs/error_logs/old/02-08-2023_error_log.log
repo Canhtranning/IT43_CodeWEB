@@ -1,0 +1,24 @@
+[Wed, 02 Aug 2023 17:32:39 +0700] [localhost] [::1] [Notice(8): Undefined variable: alert] [FILE: /modules/product/funcs/cart.php] [LINE: 286]
+[Wed, 02 Aug 2023 17:32:39 +0700] [localhost] [::1] [Notice(8): Undefined index: cart_item] [FILE: /modules/product/theme.php] [LINE: 97]
+[Wed, 02 Aug 2023 17:32:39 +0700] [localhost] [::1] [Warning(2): Invalid argument supplied for foreach()] [FILE: /modules/product/theme.php] [LINE: 97]
+[Wed, 02 Aug 2023 17:32:39 +0700] [localhost] [::1] [Notice(8): Undefined variable: total_bill] [FILE: /modules/product/theme.php] [LINE: 106]
+[Wed, 02 Aug 2023 17:40:42 +0700] [localhost] [::1] [Notice(8): Undefined variable: total_bill] [FILE: /modules/product/theme.php] [LINE: 100]
+[Wed, 02 Aug 2023 17:53:17 +0700] [localhost] [::1] [Notice(8): Undefined index: order.list] [FILE: /modules/product/admin/orderlist.php] [LINE: 15]
+[Wed, 02 Aug 2023 17:53:17 +0700] [localhost] [::1] [Notice(8): Undefined variable: email_search_query] [FILE: /modules/product/admin/orderlist.php] [LINE: 55]
+[Wed, 02 Aug 2023 17:53:17 +0700] [localhost] [::1] [Notice(8): Undefined variable: email_search_query] [FILE: /modules/product/admin/orderlist.php] [LINE: 132]
+[Wed, 02 Aug 2023 17:53:17 +0700] [localhost] [::1] [Notice(8): Undefined index: content] [FILE: /vendor/vinades/nukeviet/Core/Optimizer.php] [LINE: 92]
+[Wed, 02 Aug 2023 18:21:44 +0700] [localhost] [::1] [Notice(8): Undefined variable: html] [FILE: /modules/product/funcs/cart.php] [LINE: 67]
+[Wed, 02 Aug 2023 18:21:44 +0700] [localhost] [::1] [Notice(8): Undefined variable: html] [FILE: /modules/product/funcs/cart.php] [LINE: 83]
+[Thu, 03 Aug 2023 00:20:20 +0700] [localhost] [::1] [User Notice(1024): SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it.
+] [FILE: /vendor/vinades/nukeviet/Core/Database.php] [LINE: 85]
+[Thu, 03 Aug 2023 00:20:20 +0700] [localhost] [::1] [User Error(256): Sorry! Could not connect to data server] [FILE: /includes/mainfile.php] [LINE: 249]
+[Thu, 03 Aug 2023 00:21:44 +0700] [localhost] [::1] [Notice(8): Undefined variable: alert] [FILE: /modules/product/funcs/cart.php] [LINE: 284]
+[Thu, 03 Aug 2023 00:23:11 +0700] [localhost] [::1] [Notice(8): Undefined variable: success] [FILE: /modules/product/funcs/success.php] [LINE: 22]
+[Thu, 03 Aug 2023 00:28:24 +0700] [localhost] [::1] [Notice(8): Undefined variable: alert] [FILE: /modules/product/funcs/cart.php] [LINE: 288]
+[Thu, 03 Aug 2023 00:37:59 +0700] [localhost] [::1] [Notice(8): Undefined variable: alert] [FILE: /modules/product/funcs/cart.php] [LINE: 289]
+[Thu, 03 Aug 2023 00:38:13 +0700] [localhost] [::1] [Error(1): Uncaught Error: Call to undefined function nv_admin_theme() in D:\xampp\htdocs\book_store\modules\product\funcs\cart.php:260
+Stack trace:
+#0 D:\xampp\htdocs\book_store\index.php(343): require()
+#1 {main}
+  thrown] [FILE: /modules/product/funcs/cart.php] [LINE: 260]
+[Thu, 03 Aug 2023 00:41:57 +0700] [localhost] [::1] [Notice(8): Undefined variable: NV_CHECK_SESSION] [FILE: /modules/category/admin/list.php] [LINE: 53]

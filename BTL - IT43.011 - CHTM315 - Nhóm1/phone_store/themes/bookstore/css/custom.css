@@ -1,0 +1,61 @@
+/**
+ * @Project NUKEVIET 4.x
+ * @Author VINADES.,JSC <contact@vinades.vn>
+ * @Copyright (C) 2014 VINADES.,JSC. All rights reserved
+ * @License GNU/GPL version 2 or any later version
+ * @Createdate 31/05/2010, 00:36
+ */
+
+/* Các tùy chỉnh CSS của giao diện nên để vào đây */
+
+
+.item-img img{
+	width:230px;
+	height:250px;
+}
+
+.item{
+	width:250px;
+	height:250px;			
+}
+
+.item .item-img .product-thumb-info-act{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 250px;
+	height: 250px;
+	opacity: 0;
+	transition: 1s all;	
+}
+
+.item .item-img .product-thumb-info-act .icon{
+	position:absolute;
+	width: 260px;
+    top: 96%;
+	transform: translateY(-50%);
+}
+.item .item-img .product-thumb-info-act .icon a{
+	display: inline-block;
+	padding: 10px 20px;
+	background: #fff;
+}
+
+.item .item-img .product-thumb-info-act .icon a:hover{
+	background:	#1abc9c;
+}
+
+.item-img:hover .product-thumb-info-act{
+	opacity:1;
+	
+}
+
+h3{
+	font-family: 'Quicksand';
+	
+}
+
+h3:hover{
+		transform: scale(1.1);	
+}
+
